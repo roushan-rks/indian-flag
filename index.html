@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roushan</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+  <style>
+    body{
+    margin: 0px;
+    text-align: center;
+    color: #40514E;
+}
+ 
+.heading{
+     
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+} 
+.firstcloud{
+     
+    position: absolute;
+    top: 50px;
+    right: 300px;
+     
+}
+.secondcloud{
+   
+   
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+.name{
+    margin-top: 3.75rem;
+}
+.name2{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; 
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+}
+ .name p{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 5px;
+    color: #66BFBF;
+    font-weight: normal;
+ }
+ .profile{
+    border-radius: 100%;
+    height: 400px;
+    width: 500px;
+    margin-left: 28%;
+     /* margin-right: 50%; */
+ } 
+ .intro{
+    width: 30%;
+    margin: auto auto auto auto;
+ }
+.second{
+    display: inline-block;
+    position: relative;
+    left: 00px;
+    height: 200px;
+    width: 200px;
+    /* border: 20px; */
+    /* border-style: solid; */
+    /* border-color: black; */
+    background-color: blueviolet;
+    /* margin-left: 260px; */
+}
+.third{
+    display: inline-block;
+     position: relative;
+    left: -400px; 
+    /* border: 10px; */
+    /* border-style: solid; */
+    /* border-color: black; */
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* margin-left: 500px; */
+}
+.dev{
+    text-decoration: underline;
+    
+}
+h2{
+    color: #66BFBF;
+    padding: 10px;
+}
+h3{
+    color: #11999E;
+}
+p{
+line-height: 2;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto 50px auto;
+}
+.skill-row{
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: center;
+   color: rgb(140, 126, 218);
+   
+}
+.code-img{
+    width: 100%;
+    float: left;
+    margin-right: 30px;
+}
+.chilli-img{
+  width: 25%;  
+  float: right;
+  margin-left: 30px;
+}
+.middle-container{
+    margin: 100px 0 100px 0;
+}
+.contact-me{
+    width: 40%;
+    margin:40px auto 60px ;
+}
+.btn{
+    border-radius: 8px;
+    font-size: 20px;
+    background-color:#11cdd4 ;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: #30e3cb;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.bottom-container a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+   color:#EAF6F6 ;
+}
+.copy{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.wrapper {
+    display: flex;
+}
+
+.stick {
+    height: 450px;
+    width: 10px;
+    background: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.flag {
+    width: 270px;
+    height: 180px;
+    box-shadow: 0px 0px 90px 1px #989;
+    background-color: transparent;
+    position: relative;
+}
+
+.top {
+    height: 60px;
+    background-color: #ff9933
+}
+
+.middle {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    height: 60px;
+    background-color: green
+}
+
+.wheel {
+    height: 43px;
+    width: 43px;
+    border: 1px solid darkblue;
+    border-radius: 45px;
+    position: relative;
+    margin: 0 auto;
+    animation-name: wheel;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+.wheel .line {
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: darkblue;
+}
+
+.line:nth-child(1) {
+    transform: rotate(15deg)
+}
+
+.line:nth-child(2) {
+    transform: rotate(30deg)
+}
+
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
+
+@keyframes wheel {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.wave{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      128deg, rgba(89,72,21,0) 39%,
+      rgba(250,245,245,0.8474025974025974)
+      46%, rgba(89,72,21,0) 53%);
+  animation-name: wavy;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes wavy {
+   0%{
+    background-position:
+    -400px 0px, -400px 0px,
+    -400px 0px,-400px 0px;
+   }
+   100%{
+    background-position: 800px 0px,
+    800px 0px, 800px 0px, 800px 0px;
+   }
+ }
+ .mountain {
+  margin-left: 50%;
+ }
+ 
+  </style>
+</head>
+
+<body>
+  <!-- <div class="head"> -->
+  <div class="heading">
+    <img class="firstcloud" src="cloud.png" alt="cloud">
+    <div class="name">
+      <div class="mountain">
+
+        <div class="wrapper ">
+          <div class="stick"></div>
+          <div class="flag">
+            <div class="wave"></div>
+            <div class="top"></div>
+            <div class="middle">
+              <div class="wheel">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="secondcloud" src="cloud.png" alt="cloud">
+
+  <!-- <img class="mountain" src="mountain.png" alt=""> -->
+  <div class="banner_cont d-flex justify-content-center"><img class="img-fluid" src="hgt_webbanner.jpg" alt="banner">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile" src="independence-day-image-7.jpg" alt="">
+
+      <!-- <h2>Hello.</h2>
+          <p class="intro"> I am a Web developer. Currenty persuing Bachelor's degree in Cyber Security at LNCT&S Bhopal  </p> -->
+    </div>
+    <hr>
+    <div>
+      <div>
+        <img src="rks.jpg" alt="">
+
+      </div>
+      <div>
+
+        <img src="rks2.jpg" alt="">
+      </div>
+    </div>
+
+    <section>
+      <div class="  d-flex justify-content-center  py-3 mt-2 px-2 row" style="background-color: rgb(241, 134, 2);">
+        <div class="  d-flex justify-content-center  col-lg-12 col-md-12 col-sm-12">
+          <p class="foo1 text-center">You can buy a Tiranga from your nearest Post Office &amp; Fair Price Shops</p>
+        </div>
+        <div class="  d-flex justify-content-center  col-lg-12 col-md-12 col-sm-12">
+          <p class="foo1 text-center"> You can also opt for door step delivery of Tiranga through Postman</p>
+        </div>
+      </div>
+      <div class="  d-flex justify-content-center py-2 px-2 row">
+        <p class="text-center foo2">Orders for Tiranga can also be placed with e-commerce websites</p>
+      </div>
+      <div class="  d-flex justify-content-center py-3 px-2 my-2 row" style="background-color: rgb(0, 157, 78);">
+        <p class="text-center foo3">For bulk purchase of Tiranga, visit your nearest Post Office or order from GeM
+          portal:</p><a class="text-center text-break foo4" href="https://ccc.cept.gov.in/ServiceRequest/request.aspx"
+          target="_blank" rel="noreferrer">https://ccc.cept.gov.in/ServiceRequest/request.aspx</a>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="skills">
+      <h2></h2>
+      <div class="skill-row">
+        <h1>Proud &amp; Moments</h1>
+        <img class="code-img" src="yvra9c9akr6djalr_1640239139.webp" alt="">
+        <p>Neeraj Chopra's Gold</p>
+        <p>India breaks 41-year hockey medal drought</p>
+        <p>PM Modi at UNGA</p>
+        <p>Indian Paralympians shine at Tokyo</p>
+        <p>India breaks highest single-day vaccination record</p>
+        <p>India's vaccine century</p>
+        <p>Rise of 2 more Indian-origin CEOs</p>
+        <p>India-made Covaxin gets WHO's approval</p>
+        <p>Harnaaz Sandhu brings home Miss Universe title after 21 years</p>
+        <p>Durga Puja added to UNESCO's ICH list</p>
+        <p>Woman officer leads Guard of honour for Obama- Aug 2015</p>
+        <p>June 21 declared as World Yoga Day - 2014</p>
+        <p>Mangalyaan reached Mars - Sept 2014</p>
+        <p>Western Ghats Designated as World Heritage Site by UNESCO-2012</p>
+        <p>India becomes polio free nation January 2011</p>
+        <p>India won 101 medals in Common Wealth Games- 2010</p>
+        <p>India becomes trillion dollar economy – April 2007</p>
+        <p>Success of India's Space Program – 1980</p>
+      </div>
+      <div class="skill-row">
+        <video width="800" height="600" controls>
+          <source src="Har Ghar Tiranga Anthem _ 04 Aug, 2022.mp4" type="video/mp4">
+          <!-- <source src="movie.ogg" type="video/ogg"> -->
+          Your browser does not support the video tag.
+        </video>
+        <!-- <img class="chilli-img" src="problem-solving.png" alt=""> -->
+        <h1>About Flag</h1>
+        <p>Every free nation of the world has its own flag. It is a symbol of a free country. The National Flag of India
+          was adopted in its present form during the meeting of Constituent Assembly held on the 22 July 1947, a few
+          days before India's independence from the British on 15 August, 1947. It served as the national flag of the
+          Dominion of India between 15 August 1947 and 26 January 1950 and that of the Republic of India thereafter. In
+          India, the term "tricolour" refers to the Indian national flag.
+
+          The National flag of India is a horizontal tricolor of deep saffron (kesari) at the top, white in the middle
+          and dark green at the bottom in equal proportion. The ratio of width of the flag to its length is two to
+          three. In the centre of the white band is a navy blue wheel which represents the chakra. Its design is that of
+          the wheel which appears on the abacus of the Sarnath Lion Capital of Ashoka. Its diameter approximates to the
+          width of the white band and it has 24 spokes.</p>
+        <h3>Colours of the Flag</h3>
+        <p>In the national flag of India the top band is of Saffron colour, indicating the strength and courage of the
+          country. The white middle band indicates peace and truth with Dharma Chakra. The last band is green in colour
+          shows the fertility, growth and auspiciousness of the land.
+
+        </p>
+        <h3>The Chakra</h3>
+        <p>This Dharma Chakra depicted the "wheel of the law" in the Sarnath Lion Capital made by the 3rd-century BC
+          Mauryan Emperor Ashoka. The chakra intends to show that there is life in movement and death in stagnation.
+          <p>
+
+            <a href="https://knowindia.india.gov.in/assets/doc/flagcodeofindia_070214.pdf">More about flag</a>
+          </p>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Roushan Kumar Singh</h3>
+      <p>BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE ENGINEERING-CYBER SECURITY</p>
+      <p>Lakshmi Narain College Of Technology & Science, Bhopal</p>
+      <!-- <a class="btn" href="roushansingh59227@gmail.com">CONTACT ME</a> -->
+      <button class="btn"><a href="https://roushan-rks.github.io/resume/">CONTACT ME</a></button>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/roushan-singh-0263681b7">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://roushan-rks.github.io/resume/">Website</a>
+    <p class="copy">© 2022 Roushan Kumar Singh.</p>
+  </div>
+   
+
+</body>
+
+</html>
